@@ -1,10 +1,14 @@
 import Nav from "./components/Nav/Nav"
+import Form from "./components/Form/Form"
 
 const App=()=>{
   return (
-    <div className='flex min-h-screen bg-gray-800'>
+    <>
+    <div className='bg-gray-800 min-h-screen'>
       <Nav/>
+      <Form/>
     </div>
+    </>
   )
 }
 
