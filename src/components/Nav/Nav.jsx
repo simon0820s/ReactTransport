@@ -1,16 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Button from './Button';
-import { HiLocationMarker } from "react-icons/hi";
+import { HiLocationMarker,HiMenu,HiArrowNarrowUp } from "react-icons/hi";
 
 const Nav = () => {
-    let Links =[
+
+    const Links =[
       {name:"HOME",link:"/"},
       {name:"SERVICE",link:"/"},
       {name:"ABOUT",link:"/"},
       {name:"BLOG'S",link:"/"},
       {name:"CONTACT",link:"/"},
     ];
-    let [open,setOpen]=useState(false);
+
+    const [open,setOpen]=useState(false);
+    
+    const icon = open ? <HiArrowNarrowUp/> : <HiMenu />;
+    
   return (
     <div className='shadow-md w-full fixed top-0 left-0'>
       <div className='md:flex items-center justify-between bg-neutral-100 py-4 md:px-5 px-10'>
@@ -23,7 +28,7 @@ const Nav = () => {
       </div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
-      <ion-icon name={open ? 'close':'menu'}></ion-icon>
+        {icon}
       </div>
 
       <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-neutral-100 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
