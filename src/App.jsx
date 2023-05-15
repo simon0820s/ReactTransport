@@ -1,14 +1,7 @@
-import { BrowserRouter as Router, Route } from "react-router-dom"
-import Nav from "./components/Nav"
+import Home from "./pages/Home";
 
-const App=()=>{
-  return (
-    <>
-    <div className='bg-gray-800 min-h-screen'>
-      <Nav/>
-    </div>
-    </>
-  )
-}
+const App = () => {
+  return <Home />;
+};
 
-export default App
+export default App;
