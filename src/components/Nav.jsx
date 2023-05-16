@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Button from './Button';
 import { HiLocationMarker,HiMenu,HiArrowNarrowUp } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
@@ -17,6 +18,7 @@ const Nav = () => {
         <span className='text-3xl text-indigo-600 mr-1 pt-2'>
         <HiLocationMarker className='text-2xl pb-1' name="logo-ionic"></HiLocationMarker>
         </span>
+        Transport
         Transport
       </div>
       
