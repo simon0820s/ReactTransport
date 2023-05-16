@@ -6,11 +6,13 @@ import QuienesSomos from "./QuienesSomos";
 import TrabajaConNosotros from "./TrabajaConNosotros";
 import Valores from "./Valores";
 import Vision from "./Vision";
+import Bg from "../components/Bg";
 
 const Home = () => {
   return (
-    <div className="bg-gray-800 min-h-screen">
+    <div className="min-h-screen">
       <Nav />
+      <Bg/>
       <Inicio />
       <Nosotros />
       <QuienesSomos />
