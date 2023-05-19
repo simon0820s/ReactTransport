@@ -3,9 +3,10 @@ import Form  from "../components/Form";
 
 export default function Inicio() {
   return (
-    <section id="inicio" className="h-screen flex justify-center items-center ">
+    <section id="inicio" className="h-screen flex items-center justify-between">
+
       <div className="flex-1 flex items-center justify-center">
-        <article className="flex flex-col bg-yellow-500 w-2/4">
+        <article className="flex flex-col bg-yellow-500 w-3/4">
           <div className="p-4">
             <p className="text-white">short</p>
             <h1 className="font-bold text-5xl text-white">Title</h1>
@@ -13,9 +14,11 @@ export default function Inicio() {
           </div>
         </article>
       </div>
+
       <div className="flex-1 flex items-center justify-center">
         <Form/>
       </div>
+
     </section>
   );
 }
