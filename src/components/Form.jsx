@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 
 const Form = () => {
   return (
-    <div className='h-auto w-96 bg-[#0D1926]'>
+    <div className='h-auto w-96 bg-[#0D1926] mr-32'>
       <div className='ml-8 grid grid-rows-3 grid-cols-1'>
 
         <div className='row-start-1 row-end-2 col-start-1 col-end-2 mt-8'>
