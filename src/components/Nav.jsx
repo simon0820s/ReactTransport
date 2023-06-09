@@ -7,7 +7,7 @@ const Nav = () => {
     const Links =[
       {name:"Inicio",link:"#inicio"},
       {name:"Nosotros",link:"#nosotros"},
-      {name:"Section",link:"#quienes_somos"},
+      {name:"Somos",link:"#quienes_somos"},
       {name:"Mision",link:"#mision"},
       {name:"Vision",link:"#vision"},
       {name:"Valores",link:"#valores"},
