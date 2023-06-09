@@ -6,13 +6,11 @@ import QuienesSomos from "./QuienesSomos";
 import TrabajaConNosotros from "./TrabajaConNosotros";
 import Valores from "./Valores";
 import Vision from "./Vision";
-import Bg from "../components/Bg";
 
 const Home = () => {
   return (
-    <div className="min-h-screen">
+    <div className="bg-gradient-to-r from-indigo-500 ...">
       <Nav />
-      <Bg/>
       <Inicio />
       <Nosotros />
       <QuienesSomos />
