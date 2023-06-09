@@ -3,7 +3,7 @@ import Form from "../components/Form";
 
 export default function Inicio() {
   return (
-    <section id="inicio" className="flex items-center justify-evenly h-screen bg-purple-500 bg-opacity-20">
+    <section id="inicio" className="flex items-center h-screen bg-purple-500 bg-opacity-20">
       <div className="flex-1 flex items-center justify-center px-8">
         <article className="flex-1 flex flex-col w-2/4">
           <div className="p-4">

@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <div className="flex-1 h-auto">
+    <div className="flex-1 flex justify-center h-auto">
       <div className="px-4 py-8 max-w-sm flex flex-col items-start gap-4 bg-[#0D1926]">
         <h2 className="text-[#10E698] text-3xl font-bold">Please Complete</h2>
         <h2 className="text-[#10E698] text-3xl font-bold mt-2">My Form.</h2>
