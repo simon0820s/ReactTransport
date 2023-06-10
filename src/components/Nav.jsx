@@ -8,10 +8,9 @@ const Nav = () => {
       {name:"Inicio",link:"#inicio"},
       {name:"Nosotros",link:"#nosotros"},
       {name:"Somos",link:"#quienes_somos"},
-      {name:"Mision",link:"#mision"},
-      {name:"Vision",link:"#vision"},
+      {name:"MV",link:"#mv"},
       {name:"Valores",link:"#valores"},
-      {name:"Section",link:"#trabaja_con_nosotros"},
+      {name:"Unete",link:"#trabaja_con_nosotros"},
     ];
 
     const [open,setOpen]=useState(false);
@@ -19,7 +18,7 @@ const Nav = () => {
     const icon = open ? <HiArrowNarrowUp/> : <HiMenu />;
     
   return (
-    <div className='shadow-md w-full fixed top-0 left-0 z-10'>
+    <div className='shadow-md w-full fixed top-0 left-0 z-20'>
       <div className='md:flex items-center justify-between bg-neutral-100 py-3 md:px-5 px-10'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>

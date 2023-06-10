@@ -1,11 +1,10 @@
 import Nav from "../components/Nav";
 import Inicio from "./Inicio";
-import Mision from "./Mision";
+import MisionVision from "./Mision";
 import Nosotros from "./Nosotros";
 import QuienesSomos from "./QuienesSomos";
 import TrabajaConNosotros from "./TrabajaConNosotros";
 import Valores from "./Valores";
-import Vision from "./Vision";
 
 const Home = () => {
   return (
@@ -14,8 +13,7 @@ const Home = () => {
       <Inicio />
       <Nosotros />
       <QuienesSomos />
-      <Mision />
-      <Vision />
+      <MisionVision />
       <Valores />
       <TrabajaConNosotros />
     </div>
