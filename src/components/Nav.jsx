@@ -32,11 +32,11 @@ const Nav = () => {
         {icon}
       </div>
 
-      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-neutral-100 md:z-auto z-[-2] left-0 w-full md:pl-0 pl-9 transition-all duration-150 ease-in ${open ? 'top-10 ':'top-[-500px]'}`}>
+      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-neutral-100 md:z-auto z-[-2] left-0 w-full md:pl-0 pl-9 lg:pl-28 transition-all duration-150 ease-in ${open ? 'top-10 ':'top-[-500px]'}`}>
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-lg  md:my-0 my-7'>
-              <a onClick={()=>setOpen(false)} href={link.link} className='text-gray-800 hover:text-purple-600 duration-500 cursor-pointer md:text-sm'>{link.name}</a>
+              <a onClick={()=>setOpen(false)} href={link.link} className='text-gray-800 hover:text-purple-600 duration-500 cursor-pointer md:text-sm lg:text-xl'>{link.name}</a>
             </li>
           ))
         }

@@ -7,25 +7,25 @@ export default function Valores() {
       className="flex items-center justify-center h-screen bg-blue-500 bg-opacity-20"
     >
       <div className="bg-neutral-100 w-3/4 h-4/5 rounded-2xl">
-        <div className="flex flex-col items-center gap-3 sm:gap-10 mt-8 px-2 sm:px-8">
+        <div className="flex flex-col items-center gap-3 sm:gap-10 mt-8 px-2 sm:px-8 lg:px-20">
           <h1 className="text-2xl sm:text-4xl text-[#2f4a69] font-bold underline">
             Valores
           </h1>
-          <p className="text-center sm:text-xl">
+          <p className="text-center sm:text-xl lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga,orem ipsum dolor sit amet consectetur adipisicing elit
           </p>
-          <p className="text-center sm:text-xl">
+          <p className="text-center sm:text-xl lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga,orem ipsum dolor sit ametolor sit amet consectetur adipisicing
             elit. Nemo fuga,orem ipsum dolor sipsum dolor sit ametolor sit amet
             consectetur adipisicing elit. Nemo fuga,orem ipsum do
           </p>
-          <p className="text-center sm:text-xl">
+          <p className="text-center sm:text-xl lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga
           </p>
-          <RiBankFill className="text-4xl sm:text-7xl sm:mt-40"/>
+          <RiBankFill className="text-4xl sm:text-7xl lg:text-8xl sm:mt-40 lg:mt-96"/>
         </div>
       </div>
     </section>
