@@ -36,7 +36,7 @@ const Nav = () => {
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-lg  md:my-0 my-7'>
-              <a onClick={()=>setOpen(false)} href={link.link} className='text-gray-800 hover:text-gray-400 duration-500 cursor-pointer'>{link.name}</a>
+              <a onClick={()=>setOpen(false)} href={link.link} className='text-gray-800 hover:text-purple-600 duration-500 cursor-pointer'>{link.name}</a>
             </li>
           ))
         }
