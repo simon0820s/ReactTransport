@@ -1,36 +1,27 @@
-import Form from "../components/Form";
+import { WiMoonAltWaxingCrescent5 } from "react-icons/wi";
+
 export default function TrabajaConNosotros() {
   return (
     <section
       id="trabaja_con_nosotros"
-      className="h-screen flex justify-center items-center bg-orange-500 bg-opacity-20 gap-10"
+      className="h-screen flex flex-col justify-start items-center bg-orange-500 bg-opacity-20"
     >
-      <div className="flex flex-col items-center justify-center bg-neutral-100 w-1/2 h-3/4 p-4 rounded-r-full">
-        <div className="flex flex-col items-center gap-4 pr-36">
-          <h2 className="text-[#2f4a69] font-bold text-5xl mt-8 underline">
-            Unete!
-          </h2>
+      <div className="flex flex-col items-center justify-center bg-neutral-100 w-full h-2/4 rounded-b-full">
+        <div className="flex flex-col items-center gap-1 px-16 mt-2">
+          <h2 className="text-[#2f4a69] font-bold text-xl underline">Unete!</h2>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            aperiam amet commodi possimus. Praesentium vel repellat delectus,
-            cum dolores corporis cumque! Architecto quasi sequi quidem dicta in
-            est placeat impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            aperiam amet commodi possimus. Praesentium vel repellat delectus,
-            cum dolores corporis cumque! Architecto quasi sequi quidem dicta in
-            est placeat impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt it
+            amet consectetur adipisicing elit. Nesciunt
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            aperiam amet commodi possimus. Praesentium vel repellat delectus,
-            cum dolores corporis cumque! Architecto quasi sequi quidem dicta in
-            est placeat impedit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ne
           </p>
         </div>
       </div>
-      <Form />
+      <WiMoonAltWaxingCrescent5 className="text-7xl mt-20 text-[#2f4a69] "/>
     </section>
   );
 }
