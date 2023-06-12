@@ -11,11 +11,6 @@ const Home = () => {
     <div className="w-screen bg-gradient-to-r from-indigo-500 ...">
       <Nav />
       <Inicio />
-      <Nosotros />
-      <QuienesSomos />
-      <MisionVision />
-      <Valores />
-      <TrabajaConNosotros />
     </div>
   );
 };
