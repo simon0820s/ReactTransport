@@ -9,14 +9,14 @@ export default function TrabajaConNosotros() {
       <div className="flex flex-col items-center justify-center sm:justify-start bg-neutral-100 w-full h-2/4 rounded-b-full">
         <div className="flex flex-col items-center gap-1 sm:gap-4 px-16 lg:px-36 mt-2 sm:mt-20 lg:mt-28">
           <h2 className="text-[#2f4a69] font-bold text-xl sm:text-3xl lg:text-5xl underline">Unete!</h2>
-          <p className="text-center sm:text-xl lg:text-3xl lg:mt-8">
+          <p className="text-center text-sm sm:text-xl lg:text-2xl lg:mt-8">
             Lorem ipsum dolor sit amet consectetur adipisicing
           </p>
-          <p className="text-center sm:text-xl lg:text-3xl">
+          <p className="text-center text-sm sm:text-xl lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt it
             amet consectetur adipisicing elit. Nesciunt
           </p>
-          <p className="text-center sm:text-xl lg:text-3xl">
+          <p className="text-center text-sm sm:text-xl lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ne
           </p>
         </div>
