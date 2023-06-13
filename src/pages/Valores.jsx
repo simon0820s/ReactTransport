@@ -25,7 +25,7 @@ export default function Valores() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga
           </p>
-          <RiBankFill className="text-4xl sm:text-7xl lg:text-8xl sm:mt-40 lg:mt-96"/>
+          <RiBankFill className="text-4xl sm:text-7xl lg:text-8xl sm:mt-40 md:mt-20 lg:mt-96"/>
         </div>
       </div>
     </section>
