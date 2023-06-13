@@ -10,8 +10,8 @@ export default function Inicio() {
       <article className="flex-1 flex items-center justify-center w-20 ml-4 sm:ml-0 sm:mr-48">
         <div className="">
           <p className="text-[#10E698] text-lg md:text-2xl font-bold ml-1">short</p>
-          <h1 className="font-bold text-7xl sm:text-8xl md:text-9xl text-white">Business</h1>
-          <h1 className="font-bold text-7xl sm:text-8xl md:text-9xl text-white">Title</h1>
+          <h1 className="font-bold text-6xl sm:text-8xl md:text-9xl text-white">Business</h1>
+          <h1 className="font-bold text-6xl sm:text-8xl md:text-9xl text-white">Title</h1>
           <p className="text-white mt-4 ml-1 sm:ml-2 md:ml-4 font-normal sm:font-medium sm:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           </p>
