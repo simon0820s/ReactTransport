@@ -4,7 +4,7 @@ export default function Nosotros() {
       id="nosotros"
       className="h-screen text-gray-800 bg-neutral-100 bg-opacity-80"
     >
-      <div className="flex flex-col items-center text-center justify-between py-20 px-4 sm:px-20 lg:px-40 gap-10 md:gap-20 lg:mr-8">
+      <div className="flex flex-col items-center text-center justify-between py-20 md:py-10 px-8 sm:px-20 lg:px-40 gap-10 sm:gap-20 md:gap-20">
         <div className="md:mt-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#2f4a69]">
             Article

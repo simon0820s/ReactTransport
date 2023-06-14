@@ -16,7 +16,7 @@ export default function QuienesSomos() {
           </h1>
         </div>
 
-        <div className="flex justify-evenly w-screen h-auto bg-opacity-50 px-1 gap-1 sm:mt-20">
+        <div className="flex justify-evenly w-screen h-auto bg-opacity-50 px-1 xl:px-60 gap-1 sm:mt-20 md:mt-10 lg:mt-5">
           <div className="flex flex-col items-center w-60 mt-5 px-1">
             <span className="w-16 sm:w-32 h-16 sm:h-32 border-4 border-[#10E698] absolute mr-8"></span>
             <span className="w-16 sm:w-32 h-16 sm:h-32 bg-[#0d1926] mt-4 z-10">
@@ -25,7 +25,7 @@ export default function QuienesSomos() {
             <h3 className="mt-4 text-xl sm:text-4xl lg:text-5xl sm:font-normal">
               Quality
             </h3>
-            <p className="text-center text-xs sm:text-base mt-2 sm:mt-4 px-1">
+            <p className="text-center text-xs sm:text-base mt-2 sm:mt-4 px-4">
               Lorem ipsum dolor sit amet consect
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function QuienesSomos() {
             <h3 className="mt-4 text-xl sm:text-4xl lg:text-5xl sm:font-normal">
               Quality
             </h3>
-            <p className="text-center text-xs sm:text-base mt-2 sm:mt-4 px-1">
+            <p className="text-center text-xs sm:text-base mt-2 sm:mt-4 px-4">
               Lorem ipsum dolo Lorem ipsum dolor sit amet consectetur adip
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function QuienesSomos() {
             <h3 className="mt-4 text-xl sm:text-4xl lg:text-5xl sm:font-normal">
               Quality
             </h3>
-            <p className="text-center text-xs sm:text-base mt-2 sm:mt-4 px-1">
+            <p className="text-center text-xs sm:text-base mt-2 sm:mt-4 px-4">
               Lorem ipsum dolor sit amet consectetur adip
             </p>
           </div>

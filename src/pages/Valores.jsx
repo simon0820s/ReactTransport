@@ -11,21 +11,21 @@ export default function Valores() {
           <h1 className="text-2xl sm:text-4xl text-[#2f4a69] font-bold underline">
             Valores
           </h1>
-          <p className="text-center text-sm sm:text-xl lg:text-2xl">
+          <p className="text-center text-sm sm:text-medium lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga,orem ipsum dolor sit amet consectetur adipisicing elit
           </p>
-          <p className="text-center text-sm sm:text-xl lg:text-2xl">
+          <p className="text-center text-sm sm:text-medium lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga,orem ipsum dolor sit ametolor sit amet consectetur adipisicing
             elit. Nemo fuga,orem ipsum dolor sipsum dolor sit ametolor sit amet
             consectetur adipisicing elit. Nemo fuga,orem ipsum do
           </p>
-          <p className="text-center text-sm sm:text-xl lg:text-2xl">
+          <p className="text-center text-sm sm:text-medium lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             fuga
           </p>
-          <RiBankFill className="text-4xl sm:text-7xl lg:text-8xl sm:mt-40 md:mt-20 lg:mt-64"/>
+          <RiBankFill className="text-4xl sm:text-5xl lg:text-6xl md:mt-20 lg:mt-0"/>
         </div>
       </div>
     </section>

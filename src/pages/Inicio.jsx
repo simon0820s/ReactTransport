@@ -7,7 +7,7 @@ export default function Inicio() {
       id="inicio"
       className="flex items-center h-screen bg-purple-500 bg-opacity-20"
     >
-      <article className="flex-1 flex items-center justify-center w-20 ml-4 sm:ml-0 sm:mr-48 md:ml-10">
+      <article className="flex-1 flex items-center justify-center w-20 ml-4 sm:ml-10 md:ml-10 sm:mr-48">
         <div className="">
           <p className="text-[#10E698] text-lg md:text-2xl font-bold ml-1">short</p>
           <h1 className="font-bold text-6xl sm:text-8xl md:text-9xl lg:text-8xl text-white">Business</h1>
