@@ -25,7 +25,7 @@ const Nav = () => {
         >
           <span className="text-3xl text-indigo-600 mr-1 pt-2">
             <HiLocationMarker
-              className="text-2xl pb-1"
+              className="text-2xl mb-2"
               name="logo-ionic"
             ></HiLocationMarker>
           </span>
