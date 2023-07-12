@@ -11,21 +11,26 @@ export default function Valores() {
           <h1 className="text-2xl sm:text-4xl text-[#2f4a69] font-bold underline">
             Valores
           </h1>
-          <p className="text-center text-sm sm:text-medium lg:text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            fuga,orem ipsum dolor sit amet consectetur adipisicing elit
+          <p className="text-center text-xs sm:text-medium md:text-base lg:text-xl">
+            En Acarreos JH, nuestros valores fundamentales son:
+            Excelencia: Nos esforzamos por superar las expectativas y entregar
+            un servicio de acarreo excepcional en cada ocasión. Nos enfocamos en
+            la calidad, la eficiencia y la atención meticulosa a los detalles.
+            Integridad: Actuamos con honestidad, transparencia y ética en todas
+            nuestras interacciones. Valoramos la confianza de nuestros clientes
+            y nos comprometemos a mantener relaciones basadas en la confianza
+            mutua. Compromiso con los clientes: Nos preocupamos por entender tus
+            necesidades individuales y adaptar nuestros servicios para
+            satisfacerlas. Tu satisfacción es nuestra prioridad y nos esforzamos
+            por brindarte una atención personalizada y un servicio de calidad en
+            cada momento. En Acarreos JH, estos valores nos guían en
+            cada paso y nos aseguramos de cumplir con ellos en todos los
+            aspectos de nuestro negocio. Confía en nosotros para tus necesidades
+            de acarreo y experimenta la diferencia de trabajar con una empresa
+            comprometida con la excelencia, la integridad y la satisfacción del
+            cliente.
           </p>
-          <p className="text-center text-sm sm:text-medium lg:text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            fuga,orem ipsum dolor sit ametolor sit amet consectetur adipisicing
-            elit. Nemo fuga,orem ipsum dolor sipsum dolor sit ametolor sit amet
-            consectetur adipisicing elit. Nemo fuga,orem ipsum do
-          </p>
-          <p className="text-center text-sm sm:text-medium lg:text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            fuga
-          </p>
-          <RiBankFill className="text-4xl sm:text-5xl lg:text-6xl md:mt-20 lg:mt-0"/>
+          <RiBankFill className="text-4xl sm:text-5xl lg:text-6xl md:mt-20 lg:mt-0" />
         </div>
       </div>
     </section>
