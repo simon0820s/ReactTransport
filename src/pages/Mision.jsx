@@ -6,11 +6,11 @@ export default function MisionVision() {
     >
       <div className="flex flex-col gap-4 sm:gap-40 md:gap-20 lg:gap-10 px-4 py-8 mt-10 md:mr-4 lg:mr-0">
         <div className="flex flex-col items-center justify-center lg:h-60 lg:mr-4 bg-neutral-100 rounded-xl">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-medium sm:font-semibold text-[#2f4a69] mt-1">
+          <h1 className="text-3xl sm:text-5xl lg:text-4xl font-medium sm:font-semibold text-[#2f4a69] mt-1">
             Misión
           </h1>
           <div className="flex flex-col items-center gap-2 text-center px-2 py-1">
-            <p className="text-xs sm:text-2xl md:text-xl">
+            <p className="text-xs sm:text-2xl md:text-xl lg:text-lg">
               Buscamos conectar las personas que necesitan transportar todo tipo
               de cosas con aquellos que pueden prestar el servicio de
               transporte, buscando siempre que el usuario tenga la mejor
@@ -26,12 +26,12 @@ export default function MisionVision() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center lg:h-60 lg:mr-4 bg-neutral-100 rounded-xl">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-medium sm:font-semibold text-[#2f4a69] mt-1">
+        <div className="flex flex-col items-center justify-center lg:h-72 lg:mr-4 bg-neutral-100 rounded-xl">
+          <h1 className="text-3xl sm:text-5xl lg:text-4xl font-medium sm:font-semibold text-[#2f4a69] mt-1">
             Visión
           </h1>
           <div className="flex flex-col items-center gap-2 text-center px-2 py-1">
-            <p className="text-xs sm:text-2xl md:text-xl">
+            <p className="text-xs sm:text-2xl md:text-xl lg:text-lg">
               Nuestra misión de ayudar a las personas a conectarse y transportar
               sus cosas más fácil, es la que no permite que nos detengamos en
               seguir trabajando para ustedes, ese es nuestro motivo todos los

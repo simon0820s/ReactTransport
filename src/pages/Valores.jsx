@@ -1,5 +1,3 @@
-import { RiBankFill } from "react-icons/ri";
-
 export default function Valores() {
   return (
     <section
@@ -30,7 +28,6 @@ export default function Valores() {
             comprometida con la excelencia, la integridad y la satisfacción del
             cliente.
           </p>
-          <RiBankFill className="text-4xl sm:text-5xl lg:text-6xl md:mt-20 lg:mt-0" />
         </div>
       </div>
     </section>
