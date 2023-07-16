@@ -5,3 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
+/* styles.css */
+.scroll-snap-center {
+    scroll-snap-align: center;
+}
+
+  

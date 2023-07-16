@@ -1,4 +1,3 @@
-import { WiMoonAltWaxingCrescent5 } from "react-icons/wi";
 import { ImgsGrid } from "../components/ImgsGrid";
 
 export default function TrabajaConNosotros() {
