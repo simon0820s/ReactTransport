@@ -2,7 +2,7 @@ export default function Nosotros() {
   return (
     <section
       id="nosotros"
-      className="h-screen text-gray-800 bg-neutral-100 bg-opacity-80"
+      className="h-screen bg-neutral-100 bg-opacity-80 shadow-lg shadow-gray-500"
     >
       <div className="flex flex-col items-center text-center justify-between py-20 md:py-10 px-8 sm:px-20 lg:px-40 gap-10 sm:gap-20 md:gap-20">
         <div className="md:mt-8">
@@ -19,7 +19,7 @@ export default function Nosotros() {
             pertenencias de forma segura y puntual. Brindamos atención
             personalizada, adaptando nuestros servicios a tus necesidades
             específicas. ¡Contáctanos hoy mismo para una experiencia de acarreo
-            sin preocupaciones!" Recuerda que siempre puedes personalizarlo aún
+            sin preocupaciones! Recuerda que siempre puedes personalizarlo aún
             más y agregar información adicional según tus servicios y enfoque
             empresarial.
           </p>

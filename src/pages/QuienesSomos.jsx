@@ -4,9 +4,9 @@ export default function QuienesSomos() {
   return (
     <section
       id="quienes_somos"
-      className="h-screen flex flex-col items-center justify-center"
+      className="h-screen flex flex-col items-center justify-center bg-orange-800 bg-opacity-20"
     >
-      <div className="flex flex-col justify-center sm:justify-start h-4/5 bg-neutral-100 md:mr-8">
+      <div className="flex flex-col justify-center sm:justify-start h-4/5 bg-neutral-100 md:mr-8 shadow-lg shadow-gray-500">
         <div className="flex flex-col items-center sm:mt-20">
           <h2 className="text-[#2f4a69] text-3xl sm:text-5xl lg:text-6xl">
             Quieres saber ?

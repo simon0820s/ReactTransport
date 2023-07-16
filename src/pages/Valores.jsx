@@ -2,14 +2,14 @@ export default function Valores() {
   return (
     <section
       id="valores"
-      className="flex items-center justify-center h-screen bg-blue-500 bg-opacity-20"
+      className="flex items-center justify-center h-screen bg-orange-600 bg-opacity-20"
     >
-      <div className="bg-neutral-100 w-3/4 h-4/5 rounded-2xl">
+      <div className="bg-neutral-100 w-3/4 h-4/5 rounded-2xl shadow-lg shadow-gray-500">
         <div className="flex flex-col items-center gap-3 sm:gap-10 mt-8 px-2 sm:px-8 lg:px-20">
           <h1 className="text-2xl sm:text-4xl text-[#2f4a69] font-bold underline">
             Valores
           </h1>
-          <p className="text-center text-xs sm:text-medium md:text-base lg:text-xl">
+          <p className="text-justify leading-5 text-xs sm:text-medium md:text-base lg:text-xl">
             En Acarreos JH, nuestros valores fundamentales son:
             Excelencia: Nos esforzamos por superar las expectativas y entregar
             un servicio de acarreo excepcional en cada ocasión. Nos enfocamos en

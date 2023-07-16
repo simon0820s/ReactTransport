@@ -4,7 +4,7 @@ export default function Inicio() {
   return (
     <section
       id="inicio"
-      className="flex items-center h-screen bg-purple-500 bg-opacity-20"
+      className="flex items-center h-screen bg-orange-900 bg-opacity-20"
     >
       <article className="flex-1 flex items-center justify-center w-20 ml-4 sm:ml-10 md:ml-10 lg:ml-20 sm:mr-48">
         <div className="">

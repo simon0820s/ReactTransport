@@ -8,7 +8,7 @@ import Valores from "./Valores";
 
 const Home = () => {
   return (
-    <div className="w-screen bg-gradient-to-r from-indigo-500 ...">
+    <div className="w-screen text-gray-800 bg-gradient-to-r from-indigo-500 ...">
       <Nav />
       <Inicio />
       <Nosotros/>
