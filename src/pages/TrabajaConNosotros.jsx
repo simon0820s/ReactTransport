@@ -1,4 +1,5 @@
 import { WiMoonAltWaxingCrescent5 } from "react-icons/wi";
+import { ImgsGrid } from "../components/ImgsGrid";
 
 export default function TrabajaConNosotros() {
   return (
@@ -19,7 +20,7 @@ export default function TrabajaConNosotros() {
           </p>
         </div>
       </div>
-      <WiMoonAltWaxingCrescent5 className="text-7xl sm:text-8xl lg:text-9xl mt-20 lg:mt-40 text-[#2f4a69] " />
+      <ImgsGrid/>
     </section>
   );
 }
