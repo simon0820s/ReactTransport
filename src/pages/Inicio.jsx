@@ -15,7 +15,7 @@ export default function Inicio() {
           ¡Acarreos eficientes, llegamos a tiempo a tu destino!
           </p>
           <button className="flex-1 w-1/2 h-8 sm:h-10 py-1 mt-4 rounded-sm font-medium md:font-bold md:text-xl md:mt-8 lg:ml-4 bg-[#10e698] hover:bg-[#10e69870] hover:text-neutral-100 transition-all ease-in-out duration-300">
-            Unete
+            <a href="https://wa.me/3002540388">Unete</a>
           </button>
         </div>
       </article>

@@ -18,7 +18,7 @@ const Nav = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-20">
-      <div className="md:flex md:items-center md:justify-between bg-neutral-100 py-3 md:px-2 px-10 shadow-lg shadow-gray-400">
+      <div className="md:flex md:items-center md:justify-between bg-neutral-100 py-2 md:px-2 px-10 shadow-lg shadow-gray-400">
         <div
           className="md:flex-1 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800"
@@ -41,7 +41,7 @@ const Nav = () => {
 
         <ul
           className={`md:flex-1 md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-neutral-100 md:z-auto z-[-2] left-0 w-full md:px-4 pl-9 lg:px-10 transition-all duration-150 ease-in ${
-            open ? "top-10 " : "top-[-500px]"
+            open ? "top-16 " : "top-[-500px]"
           }`}
         >
           {Links.map((link) => (

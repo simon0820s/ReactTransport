@@ -2,7 +2,7 @@ export default function Valores() {
   return (
     <section
       id="valores"
-      className="flex items-center justify-center h-screen bg-orange-600 bg-opacity-20"
+      className="flex items-center justify-center h-screen bg-orange-800 bg-opacity-20"
     >
       <div className="bg-neutral-100 w-3/4 h-4/5 rounded-2xl shadow-lg shadow-gray-500">
         <div className="flex flex-col items-center gap-3 sm:gap-10 mt-8 px-2 sm:px-8 lg:px-20">

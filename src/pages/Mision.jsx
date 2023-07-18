@@ -2,7 +2,7 @@ export default function MisionVision() {
   return (
     <section
       id="mv"
-      className="flex flex-col items-center justify-center h-screen bg-orange-700 bg-opacity-20"
+      className="flex flex-col items-center justify-center h-screen bg-orange-800 bg-opacity-20"
     >
       <div className="flex flex-col gap-4 sm:gap-40 md:gap-20 lg:gap-10 px-4 py-8 mt-10 md:mr-4 lg:mr-0">
         <div className="flex flex-col items-center justify-center lg:h-60 lg:mr-4 bg-neutral-100 rounded-xl shadow-lg shadow-gray-500">

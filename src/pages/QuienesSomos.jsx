@@ -16,8 +16,8 @@ export default function QuienesSomos() {
           </h1>
         </div>
 
-        <div className="flex justify-evenly w-screen h-auto bg-opacity-50 px-1 xl:px-60 gap-1 sm:mt-20 md:mt-10 lg:mt-5">
-          <div className="flex flex-col items-center w-60 mt-5 px-1">
+        <div className="flex justify-evenly items-center w-screen h-auto bg-opacity-50 px-1 xl:px-60 gap-1 sm:mt-20 md:mt-10 lg:mt-5">
+          <div className="flex flex-col items-center w-70 md:w-60 mt-5 px-1">
             <span className="w-16 sm:w-32 h-16 sm:h-32 border-4 border-[#10E698] absolute mr-8"></span>
             <span className="w-16 sm:w-32 h-16 sm:h-32 bg-[#0d1926] mt-4 z-10">
               <CiBeaker1 className="text-[#10E698] text-5xl sm:text-8xl mt-2 ml-2 sm:ml-4 sm:mt-4" />
@@ -41,7 +41,7 @@ export default function QuienesSomos() {
               <CiBeaker1 className="text-[#10E698] text-5xl sm:text-8xl mt-2 ml-2 sm:ml-4 sm:mt-4" />
             </span>
             <h3 className="mt-4 text-xl sm:text-4xl md:text-3xl text-center lg:text-2xl sm:font-normal">
-              Una empresa Rapica
+              Una empresa Rapida
             </h3>
             <p className="text-center text-xs sm:text-xs mt-2 sm:mt-4 px-4">
               ¡Rapidez garantizada! En Acarreos JH, nos destacamos por nuestra
