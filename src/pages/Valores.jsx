@@ -4,7 +4,7 @@ export default function Valores() {
       id="valores"
       className="flex items-center justify-center h-screen bg-orange-800 bg-opacity-20"
     >
-      <div className="bg-neutral-100 w-4/5 h-auto rounded-2xl shadow-lg shadow-gray-500 pb-10">
+      <div className="w-4/5 h-auto bg-amber-100 bg-opacity-70 rounded-2xl shadow-lg shadow-gray-500 pb-10">
         <div className="flex flex-col items-center gap-3 sm:gap-10 mt-8 px-4 sm:px-8 lg:px-20">
           <h1 className="text-2xl sm:text-4xl text-[#2f4a69] font-bold underline">
             Valores
