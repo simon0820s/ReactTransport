@@ -40,7 +40,7 @@ const Nav = () => {
         </div>
 
         <ul
-          className={`md:flex-1 md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-neutral-100 md:z-auto z-[-2] left-0 w-full md:px-4 pl-9 lg:px-10 transition-all duration-150 ease-in ${
+          className={`md:flex-1 md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-neutral-100 md:z-auto z-[-2] left-0 w-full md:px-4 pl-9 py-4 lg:px-10 transition-all duration-150 ease-in ${
             open ? "top-12 " : "top-[-500px]"
           }`}
         >
