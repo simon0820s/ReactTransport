@@ -2,15 +2,15 @@ export default function Nosotros() {
   return (
     <section
       id="nosotros"
-      className="h-screen bg-neutral-100 bg-opacity-80 shadow-lg shadow-gray-500"
+      className="bg-neutral-100 bg-opacity-80 shadow-lg shadow-gray-500"
     >
-      <div className="flex flex-col items-center text-center justify-between py-20 md:py-10 px-8 sm:px-20 lg:px-40 gap-10 sm:gap-20 md:gap-20">
-        <div className="md:mt-8">
+      <div className="flex flex-col items-center text-center justify-between py-8 px-8 sm:px-20 lg:px-40 gap-5 md:gap-10">
+        <div className="flex flex-col gap-4">
           <h1 className="text-lg sm:text-5xl md:text-4xl lg:text-3xl font-bold text-[#2f4a69]">
             Descubre el transporte confiable y personalizado que necesitas:
             Bienvenido a Acarreos JH
           </h1>
-          <p className="mt-4 text-sm sm:text-xl md:text-lg lg:text-xl">
+          <p className="text-sm sm:text-xl md:text-lg lg:text-xl">
             Tu solución confiable en acarreos: ¡Servicio eficiente y
             personalizado en Acarreos JH, nos especializamos en acarreos
             confiables y eficientes.
@@ -25,12 +25,12 @@ export default function Nosotros() {
           </p>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-4">
           <h1 className="text-lg sm:text-5xl md:text-3xl text-[#2f4a69]">
             Descubre Acarreos JH Tu solución confiable y personalizada en
             acarreos.
           </h1>
-          <p className="mt-4 text-xs sm:text-xl md:text-2xl lg:text-lg">
+          <p className="text-xs sm:text-xl md:text-2xl lg:text-lg">
             En Acarreos JH, te ofrecemos transporte confiable y
             personalizado para satisfacer todas tus necesidades de acarreo.
             Nuestro equipo profesional y nuestra flota de vehículos modernos
