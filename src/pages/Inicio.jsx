@@ -8,7 +8,7 @@ export default function Inicio() {
       id="inicio"
       className="flex items-center h-screen bg-orange-900 bg-opacity-20"
     >
-      <article className="flex-1 flex items-center justify-center w-20 ml-4 sm:ml-10 md:ml-10 lg:ml-20 sm:mr-48">
+      <article className="flex-1 flex items-center justify-center w-20 p-4">
         <div className="">
           <motion.div
           initial = {{x: -100}}
