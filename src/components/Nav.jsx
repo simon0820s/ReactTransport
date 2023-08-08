@@ -18,7 +18,7 @@ const Nav = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-20">
-      <div className="md:flex md:items-center md:justify-between bg-neutral-100 py-2 md:px-2 px-10 shadow-lg shadow-gray-400">
+      <div className="md:flex items-center justify-between bg-neutral-100 py-2 md:px-2 px-10 shadow-lg shadow-gray-400">
         <div
           className="md:flex-1 font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800"
@@ -34,7 +34,7 @@ const Nav = () => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-3 cursor-pointer md:hidden"
         >
           {icon}
         </div>

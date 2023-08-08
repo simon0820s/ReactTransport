@@ -10,12 +10,12 @@ export default function Valores() {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="bg-neutral-100 2xl:w-1/2 bg-opacity-80 rounded-2xl shadow-lg shadow-gray-500 pb-10 m-4 md:m-8 lg:m-16 2xl:m-32 px-4 md:px-4 lg:px-16 2xl-px-32">
-        <div className="flex flex-col items-center gap-2 md:gap-4 px-4">
+        className="bg-neutral-100 2xl:w-1/2 bg-opacity-80 rounded-2xl shadow-lg shadow-gray-500 pb-10 m-4 md:m-8 lg:m-16 2xl:m-32 px-6 py-2 md:px-4 lg:px-16 2xl-px-32">
+        <div className="flex flex-col items-center gap-2 md:gap-4">
           <h1 className="text-2xl sm:text-4xl mt-2 md:mt-4 text-[#2f4a69] font-bold underline">
             Valores
           </h1>
-          <p className="text-justify leading-6 text-xs sm:text-medium md:text-base lg:text-xl">
+          <p className="text-justify leading-5 text-xs sm:text-medium md:text-base lg:text-xl">
             En Acarreos JH, nuestros valores fundamentales son:
             Excelencia: Nos esforzamos por superar las expectativas y entregar
             un servicio de acarreo excepcional en cada ocasión. Nos enfocamos en

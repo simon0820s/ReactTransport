@@ -11,11 +11,11 @@ export default function MisionVision() {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
         className="flex flex-col items-center justify-center gap-4 md:gap-6 2xl:gap-8">
-        <div className="flex flex-col gap-2 items-center justify-center bg-neutral-100 rounded-xl shadow-lg shadow-gray-500 mx-4 md:mx-8 lg:mx-16 2xl:mx-32 px-4 md:px-8 lg:px-16 2xl:w-1/2">
+        <div className="flex flex-col gap-2 items-center justify-center bg-neutral-100 rounded-xl shadow-lg shadow-gray-500 mx-4 md:mx-8 lg:mx-16 2xl:mx-32 px-6 md:px-8 lg:px-16 2xl:w-1/2">
           <h1 className="text-3xl sm:text-5xl lg:text-4xl font-medium sm:font-semibold text-[#2f4a69] mt-2 md:mt-4">
             Misión
           </h1>
-          <p className="text-justify text-xs sm:text-2xl md:text-xl lg:text-lg 2xl:text-xl">
+          <p className="text-justify text-xs leading-5 sm:text-2xl md:text-xl lg:text-lg 2xl:text-xl">
             Buscamos conectar las personas que necesitan transportar todo tipo
             de cosas con aquellos que pueden prestar el servicio de
             transporte, buscando siempre que el usuario tenga la mejor
@@ -30,11 +30,11 @@ export default function MisionVision() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-2 items-center justify-center bg-neutral-100 rounded-xl shadow-lg shadow-gray-500 mx-4 md:mx-8 lg:mx-16 2xl:mx-32 px-4 md:px-8 lg:px-16 2xl:w-1/2">
+        <div className="flex flex-col gap-2 items-center justify-center bg-neutral-100 rounded-xl shadow-lg shadow-gray-500 mx-4 md:mx-8 lg:mx-16 2xl:mx-32 px-6 md:px-8 lg:px-16 2xl:w-1/2">
           <h1 className="text-3xl sm:text-5xl lg:text-4xl font-medium sm:font-semibold text-[#2f4a69] mt-2 md:mt-4">
             Visión
           </h1>
-          <p className="text-justify text-xs sm:text-2xl md:text-xl lg:text-lg 2xl:text-xl">
+          <p className="text-justify text-xs leading-5 sm:text-2xl md:text-xl lg:text-lg 2xl:text-xl">
             Nuestra misión de ayudar a las personas a conectarse y transportar
             sus cosas más fácil, es la que no permite que nos detengamos en
             seguir trabajando para ustedes, ese es nuestro motivo todos los
