@@ -1,10 +1,16 @@
+import { motion } from "framer-motion";
 export default function MisionVision() {
   return (
     <section
       id="mv"
       className="flex flex-col items-center justify-center h-screen bg-orange-800 bg-opacity-20"
     >
-      <div className="flex flex-col gap-4 sm:gap-40 md:gap-20 lg:gap-10 px-4 py-8 mt-10 md:mr-4 lg:mr-0">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="flex flex-col gap-4 sm:gap-40 md:gap-20 lg:gap-10 px-4 py-8 mt-10 md:mr-4 lg:mr-0">
         <div className="flex flex-col items-center justify-center lg:h-60 lg:mr-4 bg-neutral-100 rounded-xl shadow-lg shadow-gray-500">
           <h1 className="text-3xl sm:text-5xl lg:text-4xl font-medium sm:font-semibold text-[#2f4a69] mt-1">
             Misión
@@ -21,7 +27,7 @@ export default function MisionVision() {
               no saber en qué llevar hasta el lugar en que las necesitan, lo que
               ha comprado. Además, se busca que las personas que necesitan el
               servicio lo adquieran a un precio justo y que éste a su vez sea
-              justo para quien lo presta.<br/><br/>
+              justo para quien lo presta.<br /><br />
             </p>
           </div>
         </div>
@@ -43,11 +49,11 @@ export default function MisionVision() {
               un dolor de cabeza a la hora de cambiar de casa, de querer
               remodelar la casa, de hacer una construcción por no saber en que
               llevar los materiales o cosas del hogar, ya no lo sea, pues es
-              nuestro motor darles soluciones a sus problemas.<br/><br/>
+              nuestro motor darles soluciones a sus problemas.<br /><br />
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

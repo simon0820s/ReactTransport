@@ -1,4 +1,5 @@
 import { CiBeaker1 } from "react-icons/ci";
+import { motion } from "framer-motion";
 
 export default function QuienesSomos() {
   return (
@@ -9,14 +10,20 @@ export default function QuienesSomos() {
       <div className="flex flex-col justify-center sm:justify-start h-4/5 bg-neutral-100 md:mr-8 shadow-lg shadow-gray-500">
         <div className="flex flex-col items-center sm:mt-20">
           <h2 className="text-[#2f4a69] text-3xl sm:text-5xl lg:text-6xl">
-            Quieres saber ?
+            Quieres saber
           </h2>
           <h1 className="text-[#2f4a69] text-4xl sm:text-7xl lg:text-9xl text-center">
             Quienes somos ?
           </h1>
         </div>
 
-        <div className="flex justify-evenly items-center w-screen h-auto bg-opacity-50 px-1 xl:px-60 gap-1 sm:mt-20 md:mt-10 lg:mt-5">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="flex justify-evenly items-center w-screen h-auto bg-opacity-50 px-1 xl:px-60 gap-1 sm:mt-20 md:mt-10 lg:mt-5">
+
           <div className="flex flex-col items-center w-70 md:w-60 mt-5 px-1">
             <span className="w-16 sm:w-32 h-16 sm:h-32 border-4 border-[#10E698] absolute mr-8"></span>
             <span className="w-16 sm:w-32 h-16 sm:h-32 bg-[#0d1926] mt-4 z-10">
@@ -69,7 +76,7 @@ export default function QuienesSomos() {
               expectativas y te brinde tranquilidad.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

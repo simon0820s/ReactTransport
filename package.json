@@ -17,10 +17,11 @@
     "gh-pages": "^5.0.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
+    "motion": "^10.16.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.9",
-    "react-icons": "^4.9.0",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^6.11.1",
     "sort-by": "^0.0.2"
   },
