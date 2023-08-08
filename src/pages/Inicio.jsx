@@ -14,7 +14,7 @@ export default function Inicio() {
           initial = {{x: -100}}
           animate = {{x: 0}}
           transition={{duration: 0.5}}>
-            <p className="text-[#10E698] text-5xl md:text-2xl font-bold ml-1"><TbTrain /></p>
+            <p className="text-[#10E698] text-5xl md:text-6xl xl:text-7xl font-bold ml-1"><TbTrain /></p>
           </motion.div>
           <h1 className="font-bold text-6xl sm:text-8xl md:text-9xl lg:text-8xl text-white">Acarreos</h1>
           <h1 className="font-bold text-6xl sm:text-8xl md:text-9xl lg:text-8xl text-white">JH</h1>
