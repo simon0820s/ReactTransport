@@ -18,14 +18,7 @@ export default function TrabajaConNosotros() {
             Estamos buscando personas apasionadas y talentosas. ¡Envía tu
             solicitud hoy mismo!
           </p>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
           <IoMdTrain className="text-zinc-900 text-5xl lg:text-6xl 2xl:text-7xl" />
-        </motion.div>
         </div>
       </div>
       <ImgsGrid />
