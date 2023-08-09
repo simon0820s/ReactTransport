@@ -1,6 +1,5 @@
 import { ImgsGrid } from "../components/ImgsGrid";
 import { IoMdTrain } from 'react-icons/io'
-import { motion } from "framer-motion";
 export default function TrabajaConNosotros() {
   return (
     <section
