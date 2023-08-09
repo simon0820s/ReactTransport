@@ -1,12 +1,12 @@
 const Form = () => {
   return (
-    <div className="hidden lg:flex-1 lg:flex lg:justify-center">
-      <div className="w-80 xl:w-96 h-1/2 p-6 flex flex-col items-start bg-[#0D1926] rounded-lg gap-1 xl:gap-4 xl:px-10">
+    <div className="flex-1 flex items-center justify-center">
+      <div className="h-1/2 md:w-3/4 p-6 m-6 flex flex-col items-start bg-[#0D1926] rounded-lg gap-1 xl:gap-4 xl:px-10">
         <div>
           <h2 className="text-[#10E698] text-3xl xl:text-4xl font-bold">Please Complete</h2>
           <h2 className="text-[#10E698] text-3xl xl:text-4xl font-bold">My Form.</h2>
         </div>
-        <p className="text-[#CFD1D4] text-xs xl:mt-2">this is our form</p>
+        <p className="text-[#CFD1D4] text-xs xl:mt-2">fill to join</p>
 
         <div className="flex items-center justify-between gap-4">
           <div className="flex-1 flex flex-col">
